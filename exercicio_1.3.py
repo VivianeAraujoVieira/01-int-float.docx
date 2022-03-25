@@ -12,4 +12,4 @@ s3 = float(input("Informe o valor do terceiro lado do triângulo: "))
 soma = (s1 + s2 + s3) / 2
 #area = (soma* (soma-s1) * (soma-s2) * (soma-s3))**(1/2)
 area = math.sqrt(soma* (soma-s1) * (soma-s2) * (soma-s3)) 
-print((area))
+print(area)
