@@ -10,20 +10,20 @@ imc = peso / alt**2
 
 if (imc<=18.5):
     print(f"{nome}, seu imc é {imc:.2f} você esta abaixo do peso. ")   
-    print(" Valores de referência:\n imc<=18.5 = abaixo do peso\nimc 19 à 24.9 = Normal \nimc 25 à 29.9 = Acima do peso \nimc>=30 = Obesidade \nimc>=40 = Obesidade morbida.")
+    print("\033[7mValores de referência:\nimc<=18.5 = abaixo do peso\nimc 19 à 24.9 = Normal \nimc 25 à 29.9 = Acima do peso \nimc>=30 = Obesidade \nimc>=40 = Obesidade morbida.\033[m")
 
 if (imc>=19) and (imc<24.9):
         print(f"Parabéns {nome}, seu imc é {imc:.2f}, você esta dentro do peso ideal. ")
-        print(" Valores de referência: imc<=18.5 = abaixo do peso\n imc 19 à 24.9 = Normal \nimc 25 à 29.9 = Acima do peso \nimc>=30 = Obesidade \nimc>=40 = Obesidade morbida.")
+        print("\033[7mValores de referência:\nimc<=18.5 = abaixo do peso\nimc 19 à 24.9 = Normal \nimc 25 à 29.9 = Acima do peso \nimc>=30 = Obesidade \nimc>=40 = Obesidade morbida.\033[m")
 
 if (imc>=25) and (imc<=29.9):
     print(f"{nome}, seu imc é {imc:.2f}, esta um pouco acima do peso, cuide-se! ")
-    print(" Valores de referência: imc<=18.5 = abaixo do peso\n imc 19 à 24.9 = Normal \nimc 25 à 29.9 = Acima do peso \nimc>=30 = Obesidade \nimc>=40 = Obesidade morbida.")
+    print("\033[7mValores de referência:\nimc<=18.5 = abaixo do peso\nimc 19 à 24.9 = Normal \nimc 25 à 29.9 = Acima do peso \nimc>=30 = Obesidade \nimc>=40 = Obesidade morbida.\033[m")
 
 if (imc>=30):
     print (f"{nome}, seu imc é {imc:.2f}, você esta obeso! ")
-    print(" Valores de referência: imc<=18.5 = abaixo do peso\n imc 19 à 24.9 = Normal \nimc 25 à 29.9 = Acima do peso \nimc>=30 = Obesidade \nimc>=40 = Obesidade morbida.")
+    print("\033[7mValores de referência:\nimc<=18.5 = abaixo do peso\nimc 19 à 24.9 = Normal \nimc 25 à 29.9 = Acima do peso \nimc>=30 = Obesidade \nimc>=40 = Obesidade morbida.\033[m")
 
 if (imc>=40):
     print(f"{nome}, seu imc é {imc}, você esta com obesidade morbida! ")
-    print(" Valores de referência: imc<=18.5 = abaixo do peso\n imc 19 à 24.9 = Normal \nimc 25 à 29.9 = Acima do peso \nimc>=30 = Obesidade \nimc>=40 = Obesidade morbida.")
+    print("\033[7mValores de referência:\nimc<=18.5 = abaixo do peso\nimc 19 à 24.9 = Normal \nimc 25 à 29.9 = Acima do peso \nimc>=30 = Obesidade \nimc>=40 = Obesidade morbida.\033[m")
